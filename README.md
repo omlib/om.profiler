@@ -7,13 +7,13 @@ Haxe method profiler forked from: http://hamaluik.com/posts/creating-a-code-prof
 
 Add build meta to the class you want to profile:
 ```haxe
-@:build(om.dev.MethodProfiler.profile(true))
+@:build(om.MethodProfiler.profile(true))
 class App { .. }
 ```
 
 For sub classes:
 ```haxe
-@:autoBuild(om.dev.MethodProfiler.profile(true))
+@:autoBuild(om.MethodProfiler.profile(true))
 class App { .. }
 ```
 
